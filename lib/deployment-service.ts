@@ -14,7 +14,7 @@ export class DeploymentService extends Construct {
   constructor(scope: Construct, id: string) {
     super(scope, id);
 
-    const hostingBucket = new aws_s3.Bucket(this, 'FrontendBucket', {
+    const hostingBucket = new aws_s3.Bucket(this, 'FrontendBucket-550330', {
       blockPublicAccess: aws_s3.BlockPublicAccess.BLOCK_ALL,
       removalPolicy: RemovalPolicy.DESTROY,
     });
