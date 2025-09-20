@@ -29,9 +29,9 @@ It provisions an S3 bucket for static website hosting and a CloudFront distribut
 - **S3 Bucket Name:**  
   `deploywebappstack-deploymentfrontendbucket5503305f-tnrygmuhu4sm`
 - **CloudFront URL:**  
-  [https://d3ssvee57gf4ea.cloudfront.net](https://d3ssvee57gf4ea.cloudfront.net)
+  [https://d326d2qxo1oqp8.cloudfront.net](https://d326d2qxo1oqp8.cloudfront.net)
 - **Stack ARN:**  
-  `arn:aws:cloudformation:us-east-1:989005111520:stack/DeployWebAppStack/66134d00-9601-11f0-9988-0affc9afce05`
+  `arn:aws:cloudfront::989005111520:distribution/E3B9VCQMK9UY06`
 
 ---
 
