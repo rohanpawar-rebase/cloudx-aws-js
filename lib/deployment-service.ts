@@ -21,7 +21,7 @@ export class DeploymentService extends Construct {
 
     const distribution = new aws_cloudfront.Distribution(
       this,
-      'CloudfrontDistribution',
+      'CloudfrontDistribution-550330',
       {
         defaultBehavior: {
           origin: aws_cloudfront_origins.S3BucketOrigin.withOriginAccessControl(

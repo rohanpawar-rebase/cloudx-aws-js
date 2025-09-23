@@ -6,6 +6,6 @@ export class DeployWebAppStack extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {
     super(scope, id, props);
 
-    new DeploymentService(this, 'deployment');
+    new DeploymentService(this, 'deployment550330');
   }
 }
