@@ -11,7 +11,8 @@
     "cdk": "cdk",
     "cdk:bootstrap": "cdk bootstrap aws://989005111520/us-east-1",
     "cdk:synth": "cdk synth",
-    "cdk:deploy": "cdk deploy"
+    "cdk:deploy": "cdk deploy",
+    "ckd:destroy": "cdk destroy"
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",
